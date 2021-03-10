@@ -1,9 +1,8 @@
 # lab01- sumador 
 laboratorio 01 introducción a HDL
+	
+Julián Andrés Caipa Prieto
 
-En esta plantilla debe adicionar la documentación del laboratorio
+La modificación de este documento de lectura representa el primer paso de trabajo, primer acercamiento a plataformas github y manejo de repositorios y versiones.
 
-* Nombres y Apellidos Estudiante 1
-* Nombres y Apellidos Estudiante 2
-* Nombres y Apellidos Estudiante 3
 
