@@ -12,7 +12,7 @@ Altera Cyclone IV EP4CE10E22C8N sin encontrarla, encontrando EP4CE10E22C8.
 2. Se va a 'File'>New>Verilog HDL File para crear el archivo que contendrá el módulo del sumador. 
 
 3. Para iniciar el desarrollo del módulo sumador de 1-bit, se genera el módulo, que es como una especie de función de programación típica, la cuál tendrá
-5 variables, A y B entradas binarias a sumar, Ci el carry de entrada de la suma (si se generá carry) y las sálidas S (Carry de sálida) y Cout (suma total):
+5 variables, A y B entradas binarias a sumar, Ci el carry de entrada de la suma (si se generá carry) y las sálidas Cout (Carry de sálida) y S (suma total):
 ![g1](g1.png)
 
 4. Una vez creado el módulo, se crean las respectivas entradas y sálidas de la siguiente forma:
