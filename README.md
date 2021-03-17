@@ -16,4 +16,4 @@ Altera Cyclone IV EP4CE10E22C8N sin encontrarla, encontrando EP4CE10E22C8.
 ![g1](g1.png)
 
 4. Una vez creado el módulo, se crean las respectivas entradas y sálidas de la siguiente forma:
-
+![g2](g2.png)
