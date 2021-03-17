@@ -13,3 +13,4 @@ Altera Cyclone IV EP4CE10E22C8N sin encontrarla, encontrando EP4CE10E22C8.
 
 3. Para iniciar el desarrollo del módulo sumador de 1-bit, se genera el módulo, que es como una especie de función de programación típica, la cuál tendrá
 5 variables, A y B entradas binarias a sumar, Ci el carry de entrada de la suma (si se generá carry) y las sálidas S (Carry de sálida) y Cout (suma total):
+![g1](g1.png)
