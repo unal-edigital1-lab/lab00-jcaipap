@@ -12,54 +12,295 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/equip/Documents/GitHub/lab00-jcaipap {C:/Users/equip/Documents/GitHub/lab00-jcaipap/sum1bcc.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 00:03:30 on Mar 22,2021
+# Start time: 00:29:51 on Mar 22,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/equip/Documents/GitHub/lab00-jcaipap" C:/Users/equip/Documents/GitHub/lab00-jcaipap/sum1bcc.v 
 # -- Compiling module sum1bcc
 # 
 # Top level modules:
 # 	sum1bcc
-# End time: 00:03:30 on Mar 22,2021, Elapsed time: 0:00:00
+# End time: 00:29:51 on Mar 22,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/equip/Documents/GitHub/lab00-jcaipap {C:/Users/equip/Documents/GitHub/lab00-jcaipap/sum4bcc.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 00:03:30 on Mar 22,2021
+# Start time: 00:29:51 on Mar 22,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/equip/Documents/GitHub/lab00-jcaipap" C:/Users/equip/Documents/GitHub/lab00-jcaipap/sum4bcc.v 
 # -- Compiling module sum4bcc
 # 
 # Top level modules:
 # 	sum4bcc
-# End time: 00:03:30 on Mar 22,2021, Elapsed time: 0:00:00
+# End time: 00:29:51 on Mar 22,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/equip/Documents/GitHub/lab00-jcaipap {C:/Users/equip/Documents/GitHub/lab00-jcaipap/sum4bcc_TB.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 00:03:30 on Mar 22,2021
+# Start time: 00:29:51 on Mar 22,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/equip/Documents/GitHub/lab00-jcaipap" C:/Users/equip/Documents/GitHub/lab00-jcaipap/sum4bcc_TB.v 
 # -- Compiling module sum4bcc_TB
 # 
 # Top level modules:
 # 	sum4bcc_TB
-# End time: 00:03:30 on Mar 22,2021, Elapsed time: 0:00:00
+# End time: 00:29:51 on Mar 22,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  sum4bcc_TB
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" sum4bcc_TB 
-# Start time: 00:03:30 on Mar 22,2021
+# Start time: 00:29:51 on Mar 22,2021
 # Loading work.sum4bcc_TB
-# ** Error: (vsim-3033) Instantiation of 'sum4b' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /sum4bcc_TB File: C:/Users/equip/Documents/GitHub/lab00-jcaipap/sum4bcc_TB.v Line: 12
-#         Searched libraries:
-#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera
-#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/220model
-#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/sgate
-#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera_mf
-#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera_lnsim
-#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/cycloneive
-#             C:/Users/equip/Documents/GitHub/lab00-jcaipap/simulation/modelsim/rtl_work
-#             C:/Users/equip/Documents/GitHub/lab00-jcaipap/simulation/modelsim/rtl_work
-# Error loading design
-# Error: Error loading design
-#        Pausing macro execution
-# MACRO ./sum4bcc_run_msim_rtl_verilog.do PAUSED at line 13
-# End time: 00:03:44 on Mar 22,2021, Elapsed time: 0:00:14
-# Errors: 1, Warnings: 0
+# Loading work.sum4bcc
+# Loading work.sum1bcc
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'Ci'. The port definition is at: C:/Users/equip/Documents/GitHub/lab00-jcaipap/sum1bcc.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /sum4bcc_TB/uut/s0 File: C:/Users/equip/Documents/GitHub/lab00-jcaipap/sum4bcc.v Line: 13
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Error: (vsim-PLI-3536) $dumpvars() : The level argument (-1) must not be negative.    : C:/Users/equip/Documents/GitHub/lab00-jcaipap/sum4bcc_TB.v(32)
+#    Time: 0 ps  Iteration: 0  Instance: /sum4bcc_TB
+# el valor de  1 +  0 =  1
+# el valor de  1 +  1 =  2
+# el valor de  1 +  2 =  3
+# el valor de  1 +  3 =  4
+# el valor de  1 +  4 =  5
+# el valor de  1 +  5 =  6
+# el valor de  1 +  6 =  7
+# el valor de  1 +  7 =  8
+# el valor de  1 +  8 =  9
+# el valor de  1 +  9 = 10
+# el valor de  1 + 10 = 11
+# el valor de  1 + 11 = 12
+# el valor de  1 + 12 = 13
+# el valor de  1 + 13 = 14
+# el valor de  1 + 14 = 15
+# el valor de  1 + 15 =  0
+# el valor de  2 +  0 =  2
+# el valor de  2 +  1 =  3
+# el valor de  2 +  2 =  4
+# el valor de  2 +  3 =  5
+# el valor de  2 +  4 =  6
+# el valor de  2 +  5 =  7
+# el valor de  2 +  6 =  8
+# el valor de  2 +  7 =  9
+# el valor de  2 +  8 = 10
+# el valor de  2 +  9 = 11
+# el valor de  2 + 10 = 12
+# el valor de  2 + 11 = 13
+# el valor de  2 + 12 = 14
+# el valor de  2 + 13 = 15
+# el valor de  2 + 14 =  0
+# el valor de  2 + 15 =  1
+# el valor de  3 +  0 =  3
+# el valor de  3 +  1 =  4
+# el valor de  3 +  2 =  5
+# el valor de  3 +  3 =  6
+# el valor de  3 +  4 =  7
+# el valor de  3 +  5 =  8
+# el valor de  3 +  6 =  9
+# el valor de  3 +  7 = 10
+# el valor de  3 +  8 = 11
+# el valor de  3 +  9 = 12
+# el valor de  3 + 10 = 13
+# el valor de  3 + 11 = 14
+# el valor de  3 + 12 = 15
+# el valor de  3 + 13 =  0
+# el valor de  3 + 14 =  1
+# el valor de  3 + 15 =  2
+# el valor de  4 +  0 =  4
+# el valor de  4 +  1 =  5
+# el valor de  4 +  2 =  6
+# el valor de  4 +  3 =  7
+# el valor de  4 +  4 =  8
+# el valor de  4 +  5 =  9
+# el valor de  4 +  6 = 10
+# el valor de  4 +  7 = 11
+# el valor de  4 +  8 = 12
+# el valor de  4 +  9 = 13
+# el valor de  4 + 10 = 14
+# el valor de  4 + 11 = 15
+# el valor de  4 + 12 =  0
+# el valor de  4 + 13 =  1
+# el valor de  4 + 14 =  2
+# el valor de  4 + 15 =  3
+# el valor de  5 +  0 =  5
+# el valor de  5 +  1 =  6
+# el valor de  5 +  2 =  7
+# el valor de  5 +  3 =  8
+# el valor de  5 +  4 =  9
+# el valor de  5 +  5 = 10
+# el valor de  5 +  6 = 11
+# el valor de  5 +  7 = 12
+# el valor de  5 +  8 = 13
+# el valor de  5 +  9 = 14
+# el valor de  5 + 10 = 15
+# el valor de  5 + 11 =  0
+# el valor de  5 + 12 =  1
+# el valor de  5 + 13 =  2
+# el valor de  5 + 14 =  3
+# el valor de  5 + 15 =  4
+# el valor de  6 +  0 =  6
+# el valor de  6 +  1 =  7
+# el valor de  6 +  2 =  8
+# el valor de  6 +  3 =  9
+# el valor de  6 +  4 = 10
+# el valor de  6 +  5 = 11
+# el valor de  6 +  6 = 12
+# el valor de  6 +  7 = 13
+# el valor de  6 +  8 = 14
+# el valor de  6 +  9 = 15
+# el valor de  6 + 10 =  0
+# el valor de  6 + 11 =  1
+# el valor de  6 + 12 =  2
+# el valor de  6 + 13 =  3
+# el valor de  6 + 14 =  4
+# el valor de  6 + 15 =  5
+# el valor de  7 +  0 =  7
+# el valor de  7 +  1 =  8
+# el valor de  7 +  2 =  9
+# el valor de  7 +  3 = 10
+# el valor de  7 +  4 = 11
+# el valor de  7 +  5 = 12
+# el valor de  7 +  6 = 13
+# el valor de  7 +  7 = 14
+# el valor de  7 +  8 = 15
+# el valor de  7 +  9 =  0
+# el valor de  7 + 10 =  1
+# el valor de  7 + 11 =  2
+# el valor de  7 + 12 =  3
+# el valor de  7 + 13 =  4
+# el valor de  7 + 14 =  5
+# el valor de  7 + 15 =  6
+# el valor de  8 +  0 =  8
+# el valor de  8 +  1 =  9
+# el valor de  8 +  2 = 10
+# el valor de  8 +  3 = 11
+# el valor de  8 +  4 = 12
+# el valor de  8 +  5 = 13
+# el valor de  8 +  6 = 14
+# el valor de  8 +  7 = 15
+# el valor de  8 +  8 =  0
+# el valor de  8 +  9 =  1
+# el valor de  8 + 10 =  2
+# el valor de  8 + 11 =  3
+# el valor de  8 + 12 =  4
+# el valor de  8 + 13 =  5
+# el valor de  8 + 14 =  6
+# el valor de  8 + 15 =  7
+# el valor de  9 +  0 =  9
+# el valor de  9 +  1 = 10
+# el valor de  9 +  2 = 11
+# el valor de  9 +  3 = 12
+# el valor de  9 +  4 = 13
+# el valor de  9 +  5 = 14
+# el valor de  9 +  6 = 15
+# el valor de  9 +  7 =  0
+# el valor de  9 +  8 =  1
+# el valor de  9 +  9 =  2
+# el valor de  9 + 10 =  3
+# el valor de  9 + 11 =  4
+# el valor de  9 + 12 =  5
+# el valor de  9 + 13 =  6
+# el valor de  9 + 14 =  7
+# el valor de  9 + 15 =  8
+# el valor de 10 +  0 = 10
+# el valor de 10 +  1 = 11
+# el valor de 10 +  2 = 12
+# el valor de 10 +  3 = 13
+# el valor de 10 +  4 = 14
+# el valor de 10 +  5 = 15
+# el valor de 10 +  6 =  0
+# el valor de 10 +  7 =  1
+# el valor de 10 +  8 =  2
+# el valor de 10 +  9 =  3
+# el valor de 10 + 10 =  4
+# el valor de 10 + 11 =  5
+# el valor de 10 + 12 =  6
+# el valor de 10 + 13 =  7
+# el valor de 10 + 14 =  8
+# el valor de 10 + 15 =  9
+# el valor de 11 +  0 = 11
+# el valor de 11 +  1 = 12
+# el valor de 11 +  2 = 13
+# el valor de 11 +  3 = 14
+# el valor de 11 +  4 = 15
+# el valor de 11 +  5 =  0
+# el valor de 11 +  6 =  1
+# el valor de 11 +  7 =  2
+# el valor de 11 +  8 =  3
+# el valor de 11 +  9 =  4
+# el valor de 11 + 10 =  5
+# el valor de 11 + 11 =  6
+# el valor de 11 + 12 =  7
+# el valor de 11 + 13 =  8
+# el valor de 11 + 14 =  9
+# el valor de 11 + 15 = 10
+# el valor de 12 +  0 = 12
+# el valor de 12 +  1 = 13
+# el valor de 12 +  2 = 14
+# el valor de 12 +  3 = 15
+# el valor de 12 +  4 =  0
+# el valor de 12 +  5 =  1
+# el valor de 12 +  6 =  2
+# el valor de 12 +  7 =  3
+# el valor de 12 +  8 =  4
+# el valor de 12 +  9 =  5
+# el valor de 12 + 10 =  6
+# el valor de 12 + 11 =  7
+# el valor de 12 + 12 =  8
+# el valor de 12 + 13 =  9
+# el valor de 12 + 14 = 10
+# el valor de 12 + 15 = 11
+# el valor de 13 +  0 = 13
+# el valor de 13 +  1 = 14
+# el valor de 13 +  2 = 15
+# el valor de 13 +  3 =  0
+# el valor de 13 +  4 =  1
+# el valor de 13 +  5 =  2
+# el valor de 13 +  6 =  3
+# el valor de 13 +  7 =  4
+# el valor de 13 +  8 =  5
+# el valor de 13 +  9 =  6
+# el valor de 13 + 10 =  7
+# el valor de 13 + 11 =  8
+# el valor de 13 + 12 =  9
+# el valor de 13 + 13 = 10
+# el valor de 13 + 14 = 11
+# el valor de 13 + 15 = 12
+# el valor de 14 +  0 = 14
+# el valor de 14 +  1 = 15
+# el valor de 14 +  2 =  0
+# el valor de 14 +  3 =  1
+# el valor de 14 +  4 =  2
+# el valor de 14 +  5 =  3
+# el valor de 14 +  6 =  4
+# el valor de 14 +  7 =  5
+# el valor de 14 +  8 =  6
+# el valor de 14 +  9 =  7
+# el valor de 14 + 10 =  8
+# el valor de 14 + 11 =  9
+# el valor de 14 + 12 = 10
+# el valor de 14 + 13 = 11
+# el valor de 14 + 14 = 12
+# el valor de 14 + 15 = 13
+# el valor de 15 +  0 = 15
+# el valor de 15 +  1 =  0
+# el valor de 15 +  2 =  1
+# el valor de 15 +  3 =  2
+# el valor de 15 +  4 =  3
+# el valor de 15 +  5 =  4
+# el valor de 15 +  6 =  5
+# el valor de 15 +  7 =  6
+# el valor de 15 +  8 =  7
+# el valor de 15 +  9 =  8
+# el valor de 15 + 10 =  9
+# el valor de 15 + 11 = 10
+# el valor de 15 + 12 = 11
+# el valor de 15 + 13 = 12
+# el valor de 15 + 14 = 13
+# ** Note: $finish    : C:/Users/equip/Documents/GitHub/lab00-jcaipap/sum4bcc_TB.v(33)
+#    Time: 1200 ps  Iteration: 0  Instance: /sum4bcc_TB
+# 1
+# Break in NamedBeginStat TEST_CASE at C:/Users/equip/Documents/GitHub/lab00-jcaipap/sum4bcc_TB.v line 33
+# End time: 00:37:16 on Mar 22,2021, Elapsed time: 0:07:25
+# Errors: 1, Warnings: 1

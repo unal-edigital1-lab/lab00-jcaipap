@@ -9,7 +9,7 @@ module sum4bcc_TB;
   wire [3:0] zi;
 
   //Instaciamiento del módulo sumador de 4 bits
-  sum4b uut (.Ai(xi),.Bi(yi),.Co(co),.Si(zi));
+  sum4bcc uut (.Ai(xi),.Bi(yi),.Co(co),.Si(zi));
 
   
   //Instanciamiento del ciclo de simulación
@@ -24,6 +24,13 @@ module sum4bcc_TB;
 		presenta en el display los valores de forma décimal*/
 		
     end
-  end      
+  end  
+  
+  //Instanciamiento del caso de prueba
+	initial begin: TEST_CASE
+     $dumpfile("sum4b_TB.vcd"); //Archivo dummy del caso de prueba
+     $dumpvars(-1, uut); //Variables dummy del caso de prueba
+     #(1200) $finish; //Finalización del caso de prueba en 2000 unidades de tiempo
+   end  
 
 endmodule

@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 dC:/Users/equip/Documents/GitHub/lab00-jcaipap/simulation/modelsim
 vsum1bcc
-Z1 !s110 1616389410
+Z1 !s110 1616390991
 !i10b 1
 !s100 <7464:XFh9hHIJa2>G7NN2
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -26,7 +26,7 @@ Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1616389410.000000
+Z5 !s108 1616390991.000000
 !s107 C:/Users/equip/Documents/GitHub/lab00-jcaipap/sum1bcc.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/equip/Documents/GitHub/lab00-jcaipap|C:/Users/equip/Documents/GitHub/lab00-jcaipap/sum1bcc.v|
 !i113 1
@@ -60,16 +60,16 @@ R8
 vsum4bcc_TB
 R1
 !i10b 1
-!s100 Z`OFjCNZO;zJ?EWloP_Q10
+!s100 ]z7R1hhFa1;KT>mRWm]300
 R2
-Ibb9ej=]c9lgU8kf@XI;>53
+ILfF5>m0MQo=TYOBD[>bVG1
 R3
 R0
-w1616388661
+w1616390981
 8C:/Users/equip/Documents/GitHub/lab00-jcaipap/sum4bcc_TB.v
 FC:/Users/equip/Documents/GitHub/lab00-jcaipap/sum4bcc_TB.v
 !i122 2
-L0 1 29
+L0 1 36
 R4
 r1
 !s85 0
