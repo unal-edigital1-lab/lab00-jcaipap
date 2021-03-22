@@ -19,10 +19,12 @@ Altera Cyclone IV EP4CE10E22C8N sin encontrarla, encontrando EP4CE10E22C8.
 
 
 Y se realizan las pruebas de funcionamiento en ModelSim visualizando las ondas de resultado del sumador. Análizando la tabla de verdad, se presenta el caso:
+
 ![g3](imagenes/g3.png)
 
 
 Y en las ondas, se verifica que el sumador funciona, como es posible ver aquí, gracias al testbench asociado:
+
 ![g5](imagenes/g5.png)
 
 Ahora, se realiza el sumador de 1 bit normal, 
