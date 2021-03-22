@@ -1,0 +1,84 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/equip/Documents/GitHub/lab00-jcaipap/simulation/modelsim
+vsum1bcc
+Z1 !s110 1616389410
+!i10b 1
+!s100 <7464:XFh9hHIJa2>G7NN2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I:N;e_7P8^GXVNV5J>ZQCj2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1616384165
+8C:/Users/equip/Documents/GitHub/lab00-jcaipap/sum1bcc.v
+FC:/Users/equip/Documents/GitHub/lab00-jcaipap/sum1bcc.v
+!i122 0
+L0 1 13
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1616389410.000000
+!s107 C:/Users/equip/Documents/GitHub/lab00-jcaipap/sum1bcc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/equip/Documents/GitHub/lab00-jcaipap|C:/Users/equip/Documents/GitHub/lab00-jcaipap/sum1bcc.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/Users/equip/Documents/GitHub/lab00-jcaipap
+Z8 tCvgOpt 0
+vsum4bcc
+R1
+!i10b 1
+!s100 EY?;4?cJmjjVj<UiVdSiE1
+R2
+Il3FA]c>d07MjNHXZ6P]I`1
+R3
+R0
+w1616387237
+8C:/Users/equip/Documents/GitHub/lab00-jcaipap/sum4bcc.v
+FC:/Users/equip/Documents/GitHub/lab00-jcaipap/sum4bcc.v
+!i122 1
+L0 1 19
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/equip/Documents/GitHub/lab00-jcaipap/sum4bcc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/equip/Documents/GitHub/lab00-jcaipap|C:/Users/equip/Documents/GitHub/lab00-jcaipap/sum4bcc.v|
+!i113 1
+R6
+R7
+R8
+vsum4bcc_TB
+R1
+!i10b 1
+!s100 Z`OFjCNZO;zJ?EWloP_Q10
+R2
+Ibb9ej=]c9lgU8kf@XI;>53
+R3
+R0
+w1616388661
+8C:/Users/equip/Documents/GitHub/lab00-jcaipap/sum4bcc_TB.v
+FC:/Users/equip/Documents/GitHub/lab00-jcaipap/sum4bcc_TB.v
+!i122 2
+L0 1 29
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/equip/Documents/GitHub/lab00-jcaipap/sum4bcc_TB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/equip/Documents/GitHub/lab00-jcaipap|C:/Users/equip/Documents/GitHub/lab00-jcaipap/sum4bcc_TB.v|
+!i113 1
+R6
+R7
+R8
+nsum4bcc_@t@b

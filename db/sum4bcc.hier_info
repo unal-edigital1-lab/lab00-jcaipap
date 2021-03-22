@@ -1,0 +1,48 @@
+|sum4bcc
+Ai[0] => Ai[0].IN1
+Ai[1] => Ai[1].IN1
+Ai[2] => Ai[2].IN1
+Ai[3] => Ai[3].IN1
+Bi[0] => Bi[0].IN1
+Bi[1] => Bi[1].IN1
+Bi[2] => Bi[2].IN1
+Bi[3] => Bi[3].IN1
+Co << sum1bcc:s3.Cout
+Si[0] << sum1bcc:s0.S
+Si[1] << sum1bcc:s1.S
+Si[2] << sum1bcc:s2.S
+Si[3] << sum1bcc:s3.S
+
+
+|sum4bcc|sum1bcc:s0
+A => Add0.IN1
+B => Add0.IN2
+Ci => Add1.IN4
+Cout <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+S <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sum4bcc|sum1bcc:s1
+A => Add0.IN1
+B => Add0.IN2
+Ci => Add1.IN4
+Cout <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+S <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sum4bcc|sum1bcc:s2
+A => Add0.IN1
+B => Add0.IN2
+Ci => Add1.IN4
+Cout <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+S <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sum4bcc|sum1bcc:s3
+A => Add0.IN1
+B => Add0.IN2
+Ci => Add1.IN4
+Cout <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+S <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+
+
