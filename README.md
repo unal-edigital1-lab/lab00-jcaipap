@@ -96,6 +96,6 @@ Al realizar la simulación en RTL Simulation, con la herramienta ModelSim, autom
 
 Suponiendo un caso para comprobar la efectividad del sumador, en el cual, la entrada 1 vale 0100 y la entrada 2 vale 0010. Al operar esto nos resulta en 0110 sin Carry de sálida. Verificando en la gráfica de señal generada:
 
-![g18](imagenes/g18.png)
+![g19](imagenes/g19.png)
 
 Así se comprueba el correcto funcionamiento del sumador de 4-bits.
