@@ -15,4 +15,4 @@ Altera Cyclone IV EP4CE10E22C8N sin encontrarla, encontrando EP4CE10E22C8.
 
  3.1. Análisis de los códigos brindados del sumador de 1 bit y las diferencias entre ellos: Se presenta primero el sumador primitivo, el cual opera con operdores lógicos sencillos y cables de conexión entre las entradas y las sálidas.
 	
- ![g1] (imagenes/g1.png)
+ ![g1](imagenes/g1.png)
