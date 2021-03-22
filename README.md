@@ -27,4 +27,19 @@ Y en las ondas, se verifica que el sumador funciona, como es posible ver aquí, 
 
 ![g5](imagenes/g5.png)
 
-Ahora, se realiza el sumador de 1 bit normal, 
+Ahora, se realiza el sumador de 1 bit normal, el cual opera con un bloque tipo always que ejecuta la suma y la almacena en un array de reg:
+
+![g6](imagenes/g6.png)
+
+Y se realizan las pruebas de funcionamiento en ModelSim visualizando las ondas de resultado del sumador, y estas, se verifica que el sumador funciona, como es posible ver aquí, gracias al testbench asociado, estudiando el mismo caso puntual del primitivo:
+
+![g7](imagenes/g7.png)
+
+Las diferencias entre los sumadores rádican en la forma del código, mientras el primero emplea wire que solo permiten el trasporte de datos y compuertas lógicas, el segundo implementa almacenamiento y transporte con el uso de un array reg, y esto en un bloque always que ejecuta la suma de dichos valores y los asigna de la forma pertinente.
+
+
+
+
+
+
+
