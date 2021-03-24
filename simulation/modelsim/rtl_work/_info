@@ -10,75 +10,75 @@ z2
 cModel Technology
 Z0 dC:/Users/equip/Documents/GitHub/lab00-jcaipap/simulation/modelsim
 vsum1bcc
-Z1 !s110 1616390991
+!s110 1616456788
 !i10b 1
 !s100 <7464:XFh9hHIJa2>G7NN2
-Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
 I:N;e_7P8^GXVNV5J>ZQCj2
-Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
 w1616384165
 8C:/Users/equip/Documents/GitHub/lab00-jcaipap/sum1bcc.v
 FC:/Users/equip/Documents/GitHub/lab00-jcaipap/sum1bcc.v
 !i122 0
 L0 1 13
-Z4 OV;L;2020.1;71
+Z3 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1616390991.000000
+Z4 !s108 1616456788.000000
 !s107 C:/Users/equip/Documents/GitHub/lab00-jcaipap/sum1bcc.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/equip/Documents/GitHub/lab00-jcaipap|C:/Users/equip/Documents/GitHub/lab00-jcaipap/sum1bcc.v|
 !i113 1
-Z6 o-vlog01compat -work work
-Z7 !s92 -vlog01compat -work work +incdir+C:/Users/equip/Documents/GitHub/lab00-jcaipap
-Z8 tCvgOpt 0
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/equip/Documents/GitHub/lab00-jcaipap
+Z7 tCvgOpt 0
 vsum4bcc
-R1
+Z8 !s110 1616456789
 !i10b 1
 !s100 EY?;4?cJmjjVj<UiVdSiE1
-R2
+R1
 Il3FA]c>d07MjNHXZ6P]I`1
-R3
+R2
 R0
 w1616387237
 8C:/Users/equip/Documents/GitHub/lab00-jcaipap/sum4bcc.v
 FC:/Users/equip/Documents/GitHub/lab00-jcaipap/sum4bcc.v
 !i122 1
 L0 1 19
-R4
+R3
 r1
 !s85 0
 31
-R5
+R4
 !s107 C:/Users/equip/Documents/GitHub/lab00-jcaipap/sum4bcc.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/equip/Documents/GitHub/lab00-jcaipap|C:/Users/equip/Documents/GitHub/lab00-jcaipap/sum4bcc.v|
 !i113 1
+R5
 R6
 R7
-R8
 vsum4bcc_TB
-R1
+R8
 !i10b 1
 !s100 ]z7R1hhFa1;KT>mRWm]300
-R2
+R1
 ILfF5>m0MQo=TYOBD[>bVG1
-R3
+R2
 R0
 w1616390981
 8C:/Users/equip/Documents/GitHub/lab00-jcaipap/sum4bcc_TB.v
 FC:/Users/equip/Documents/GitHub/lab00-jcaipap/sum4bcc_TB.v
 !i122 2
 L0 1 36
-R4
+R3
 r1
 !s85 0
 31
-R5
+!s108 1616456789.000000
 !s107 C:/Users/equip/Documents/GitHub/lab00-jcaipap/sum4bcc_TB.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/equip/Documents/GitHub/lab00-jcaipap|C:/Users/equip/Documents/GitHub/lab00-jcaipap/sum4bcc_TB.v|
 !i113 1
+R5
 R6
 R7
-R8
 nsum4bcc_@t@b
