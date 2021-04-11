@@ -7,11 +7,11 @@ Bi[0] => Bi[0].IN1
 Bi[1] => Bi[1].IN1
 Bi[2] => Bi[2].IN1
 Bi[3] => Bi[3].IN1
-Co << sum1bcc:s3.Cout
-Si[0] << sum1bcc:s0.S
-Si[1] << sum1bcc:s1.S
-Si[2] << sum1bcc:s2.S
-Si[3] << sum1bcc:s3.S
+Co <= sum1bcc:s3.Cout
+Si_in[0] <= sum1bcc:s0.S
+Si_in[1] <= sum1bcc:s1.S
+Si_in[2] <= sum1bcc:s2.S
+Si_in[3] <= sum1bcc:s3.S
 
 
 |sum4bcc|sum1bcc:s0

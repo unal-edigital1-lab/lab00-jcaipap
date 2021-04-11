@@ -8,19 +8,19 @@
 					"strict" : false
 				},
 				{
-					"name" : "Si[0]",
+					"name" : "Si_in[0]",
 					"strict" : false
 				},
 				{
-					"name" : "Si[1]",
+					"name" : "Si_in[1]",
 					"strict" : false
 				},
 				{
-					"name" : "Si[2]",
+					"name" : "Si_in[2]",
 					"strict" : false
 				},
 				{
-					"name" : "Si[3]",
+					"name" : "Si_in[3]",
 					"strict" : false
 				},
 				{

@@ -1,11 +1,17 @@
-module sum4bcc(Ai,Bi,Co,Si);//Sentencia del módulo sumador de 4 bits
+module sum4bcc(Ai,Bi,Co_in,Si_in);//Sentencia del módulo sumador de 4 bits
 
+	parameter nb=4;
 	//Instanciamiento de entradas y sálidas
-	input [3 :0] Ai;
-  input [3 :0] Bi;
+	input [nb-1 :0] Ai;
+  input [nb-1 :0] Bi;
   output Co;
-  output [3 :0] Si;
-
+  output [nb-1 :0] Si_in;
+  
+	wire Co_in;
+	wire [nb-1 :0] Si;
+	
+	assign Si_in=~Si;
+	assign Co_in=~Co;
   
   wire c1,c2,c3; //Conexiones de carry
   
