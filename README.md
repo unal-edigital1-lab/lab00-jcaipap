@@ -136,7 +136,7 @@ Y al abrirlo nos presenta un módulo como el siguiente, en el cual se detecta au
 
 Y observamos los resultados en la tarjeta: 
 
-![g25](imagenes/g25.png)
+![g25](imagenes/g25.jpeg)
 
 En donde rápidamente es posible evidenciar un error, ya que, estando todos los switches "apagados", se encuentra prendido el resultado como si fuera 0001. 
 
