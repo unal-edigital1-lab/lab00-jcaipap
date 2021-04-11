@@ -99,3 +99,16 @@ Suponiendo un caso para comprobar la efectividad del sumador, en el cual, la ent
 ![g19](imagenes/g19.png)
 
 Así se comprueba el correcto funcionamiento del sumador de 4-bits.
+
+
+**3.5 Simulación en la tarjeta Altera brindada**
+
+Como parte final del trabajo, y aprovechando los recursos brindados por la universidad, se probará el funcionamiento del código en la tarjeta fpga Altera modelo Cyclone IV EP4CE10E22C8N. 
+
+Para esto, es requerido inicialmente conocer las condiciones de los puertos o pines del chip de la tarjeta y cuales queremos activar, en este caso, se requieren activar los 8 switches y 5 bombillos led. Para esto, podemos consultar las partes y números de pines en una página que brinde información como la siguiente:
+http://land-boards.com/blwiki/index.php?title=A-C4E10_Cyclone_IV_FPGA_EP4CE10E22C8N_Development_Board
+
+O también se puede observando la tarjeta y las marcas que esta trae.
+
+Ahora bien, ya conocemos cuales son los números de pin para los switches, y se asignaran, para la entrada A los pines del 65 al 68, y para la B los pines del 58 al 64, y para los leds de salida, 72 a 75, y para el Carry 76.
+Para realizar 
