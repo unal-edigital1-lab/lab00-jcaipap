@@ -111,4 +111,38 @@ http://land-boards.com/blwiki/index.php?title=A-C4E10_Cyclone_IV_FPGA_EP4CE10E22
 O también se puede observando la tarjeta y las marcas que esta trae.
 
 Ahora bien, ya conocemos cuales son los números de pin para los switches, y se asignaran, para la entrada A los pines del 65 al 68, y para la B los pines del 58 al 64, y para los leds de salida, 72 a 75, y para el Carry 76.
-Para realizar 
+
+Para realizar la asignación de los pines, es requerido dirigirse al Pin planner de Quartus, como se aprecía en la siguiente imagen:
+
+![g20](imagenes/g20.png)
+
+Esto nos despliega una pantalla como la siguiente, donde se visualiza el chip y todos sus pines:
+
+![g21](imagenes/g21.png)
+
+Allí, nos dirigimos a la parte inferior, y procedemos a realizar la asignación como lo mencionado previamente desde el bit mas significativo al menos significativo:
+
+![g22](imagenes/g22.png)
+
+Y una vez realizado esto, compilamos el proyecto y procedemos a conectar la tarjeta al computador, para poder programarla con el código correspondiente y las asignaciones realizadas. Es necesario conectar ambos cables, tanto el de USB-BLASTER, como el cable de poder. Adicionalmente, se debe instalar el controlador requerido para el manejo del usb-blaster en caso de que no sea reconocido automáticamente, un proceso un poco tedioso y que no es fin de este informe, se puede consultar en línea, o en vídeos de ejemplo como el siguiente: https://www.youtube.com/watch?v=_IIQ_w6B1b8.
+
+Posteriormente, con la conexión de la tarjeta realizada, nos vamos al Programmer de Quartus en la sección Tools como se ve en la siguiente figura:
+
+![g23](imagenes/g23.png)
+
+Y al abrirlo nos presenta un módulo como el siguiente, en el cual se detecta automáticamente la tarjeta (de no ser así, le damos autodetect en los botones de la parte lateral izquierda, y luego en el menú desplegable al lado de Hardware Setup colocamos USB-Blaster [USB-0]), y en dicho módulo damos a Start para que inicie la programación de la tarjeta hasta que nos muestre 100% Successful, indicando la correcta programación de la misma:
+
+![g24](imagenes/g24.png)
+
+Y observamos los resultados en la tarjeta: 
+
+![g25](imagenes/g25.png)
+
+En donde rápidamente es posible evidenciar un error, ya que, estando todos los switches "apagados", se encuentra prendido el resultado como si fuera 0001. 
+
+Para la corrección de este error, y de la mano con trabajo de tutoría docente, se encontró que la tarjeta presenta dos condiciones que se deben tener en cuenta en el código y el manejo de la misma, primero, las salidas deben negarse por la disposición interna de las conexiones de los pines en la tarjeta, y la segunda, los switches están invertidos. Con estos ajustes realizados, se corrige el código (OJO, solo para el uso en la tarjeta, estos cambios afectan notablemente los resultados en Testbench y simulaciones internas de Quartus), resultando en:
+
+![g26](imagenes/g26.png)
+
+Y se obtienen finalmente los resultados existosos en la tarjeta altera del sumador de 4 bits.
+
