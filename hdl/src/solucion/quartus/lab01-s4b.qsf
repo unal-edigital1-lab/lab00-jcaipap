@@ -38,7 +38,7 @@
 
 
 set_global_assignment -name FAMILY "Cyclone IV E"
-set_global_assignment -name DEVICE AUTO
+set_global_assignment -name DEVICE EP4CE10E22C8
 set_global_assignment -name TOP_LEVEL_ENTITY sum4b
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 19.1.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "12:16:53  SEPTEMBER 16, 2020"
@@ -63,4 +63,11 @@ set_global_assignment -name EDA_TEST_BENCH_NAME sum4b_TB -section_id eda_simulat
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id sum4b_TB
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME sum4b_TB -section_id sum4b_TB
 set_global_assignment -name EDA_TEST_BENCH_FILE ../src/sum4b_TB.v -section_id sum4b_TB
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_location_assignment PIN_76 -to co
+set_location_assignment PIN_75 -to zi[3]
+set_location_assignment PIN_74 -to zi[2]
+set_location_assignment PIN_73 -to zi[1]
+set_location_assignment PIN_72 -to zi[0]
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

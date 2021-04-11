@@ -1,5 +1,5 @@
 Analysis & Elaboration report for sum4bcc
-Mon Mar 22 18:46:13 2021
+Wed Mar 24 18:46:17 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -38,7 +38,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                   ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status      ; Successful - Mon Mar 22 18:46:13 2021       ;
+; Analysis & Elaboration Status      ; Successful - Wed Mar 24 18:46:17 2021       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; sum4bcc                                     ;
 ; Top-level Entity Name              ; sum4bcc                                     ;
@@ -173,7 +173,7 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Mon Mar 22 18:45:57 2021
+    Info: Processing started: Wed Mar 24 18:46:08 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Lab00_sumador4bit -c sum4bcc --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -187,9 +187,9 @@ Info (12127): Elaborating entity "sum4bcc" for the top level hierarchy
 Info (12128): Elaborating entity "sum1bcc" for hierarchy "sum1bcc:s0" File: C:/Users/equip/Documents/GitHub/lab00-jcaipap/sum4bcc.v Line: 13
 Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 4697 megabytes
-    Info: Processing ended: Mon Mar 22 18:46:13 2021
-    Info: Elapsed time: 00:00:16
-    Info: Total CPU time (on all processors): 00:00:40
+    Info: Peak virtual memory: 4702 megabytes
+    Info: Processing ended: Wed Mar 24 18:46:17 2021
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:24
 
 

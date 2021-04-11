@@ -1,5 +1,5 @@
 Flow report for sum4bcc
-Mon Mar 22 18:46:13 2021
+Wed Mar 24 18:46:17 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Mon Mar 22 18:46:13 2021       ;
+; Flow Status                        ; Successful - Wed Mar 24 18:46:17 2021       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; sum4bcc                                     ;
 ; Top-level Entity Name              ; sum4bcc                                     ;
@@ -65,7 +65,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/22/2021 18:45:58 ;
+; Start date & time ; 03/24/2021 18:46:08 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; sum4bcc             ;
 +-------------------+---------------------+
@@ -76,7 +76,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID                ; 104156968683347.161645675829096        ; --            ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID                ; 104156968683347.161662956815668        ; --            ; --          ; --                                ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; sum4bcc_TB                        ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_boundary_scan    ;
@@ -107,8 +107,8 @@ https://fpgasoftware.intel.com/eula.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:16     ; 1.0                     ; 4697 MB             ; 00:00:39                           ;
-; Total                  ; 00:00:16     ; --                      ; --                  ; 00:00:39                           ;
+; Analysis & Elaboration ; 00:00:09     ; 1.0                     ; 4702 MB             ; 00:00:24                           ;
+; Total                  ; 00:00:09     ; --                      ; --                  ; 00:00:24                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

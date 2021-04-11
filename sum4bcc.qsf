@@ -69,4 +69,17 @@ set_global_assignment -name EDA_TEST_BENCH_NAME sum4bcc_TB -section_id eda_simul
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id sum4bcc_TB
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME sum4bcc_TB -section_id sum4bcc_TB
 set_global_assignment -name EDA_TEST_BENCH_FILE sum4bcc_TB.v -section_id sum4bcc_TB
+set_location_assignment PIN_65 -to Ai[3]
+set_location_assignment PIN_66 -to Ai[2]
+set_location_assignment PIN_67 -to Ai[1]
+set_location_assignment PIN_68 -to Ai[0]
+set_location_assignment PIN_58 -to Bi[3]
+set_location_assignment PIN_59 -to Bi[2]
+set_location_assignment PIN_60 -to Bi[1]
+set_location_assignment PIN_64 -to Bi[0]
+set_location_assignment PIN_74 -to Si[2]
+set_location_assignment PIN_75 -to Si[3]
+set_location_assignment PIN_73 -to Si[1]
+set_location_assignment PIN_72 -to Si[0]
+set_location_assignment PIN_76 -to Co
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
